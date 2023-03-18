@@ -1,0 +1,18 @@
+#con{
+    text-align:center;
+    /* background-color: darkgrey; */
+    font-size: medium;
+    border : 2px solid black;
+    margin-top: 5px;
+
+}
+
+#button{
+    margin-bottom: 5px;
+}
+#na{
+    margin-top: 5px;
+}
+#nav{
+    margin-bottom: 5px;
+}

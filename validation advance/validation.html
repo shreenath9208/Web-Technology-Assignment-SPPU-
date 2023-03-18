@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form With Validation </title>
+    <link rel="stylesheet" href="validation.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div id="nav">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="icon.jpg" alt="website" width="30" height="25">
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <h1 style="text-align: center; color: hsl(hue, saturation, lightness);">Welcome</h1>
+
+    <div id="con">
+        <form  name="form" method="post" action="validation.html">
+            Please Enter Name : <input name="name" type="text" id="na" required ></input><br><br>
+            Please Enter Email : <input name="email" type="text" id="em" required ></input><br><br>
+            Please Enter Department : <input name="depart" type="text" id="dept" required ></input><br><br>
+            Please Enter Phone : <input name="number" type="text" id="num" required ></input><br><br>
+            Please Enter Password : <input name="Password" type="password" id="pass" required ></input><br><br>
+            <button class="btn btn-danger" id="button"  type="submit" value="submit" onclick="return(Validation());">Submit</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- This is line to add  the javascript file  -->
+    <script type="text/javascript" src="validation.js"></script>
+</body>
+
+</html>
